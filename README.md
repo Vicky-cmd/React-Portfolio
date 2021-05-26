@@ -1,4 +1,4 @@
-#Delpoyed Url
+# Delpoyed Url
 ### The project has been deployed in: https://vicky--portfolio.herokuapp.com/
 
 # Getting Started with Create React App
