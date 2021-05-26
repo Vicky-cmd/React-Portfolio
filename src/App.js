@@ -33,13 +33,15 @@ class App extends Component{
                         <div>
                             <p>I live in India and working as an Assistant Systems Engineer in TCS.</p>
                             <p>I also like listening to music and reading books.</p>
-                            <p>Interested Technologies:</p>
-                            <ul>
-                                <li>Java - Spring, Springboot, hibernate</li>
-                                <li>Docker and Kubernetes</li>
-                                <li>Big Data</li>
-                                <li>Dev Ops</li>
-                            </ul>
+                            <h6>INTERESTED TECHNOLOGIES</h6>
+                            <div style={{width: 'fit-content', margin: 'auto', textAlign: 'left'}}>
+                                <ul>
+                                    <li>Java - Spring, Springboot, hibernate</li>
+                                    <li>Docker and Kubernetes</li>
+                                    <li>Big Data</li>
+                                    <li>Dev Ops</li>
+                                </ul>
+                            </div>
                             <div><button className='btn' onClick={this.toggleDispBio}>Read Less</button></div>
                         </div>
                     ):<div><button className='btn' onClick={this.toggleDispBio}>Read More</button></div>
