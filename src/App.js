@@ -32,7 +32,14 @@ class App extends Component{
                     this.state.displayBio? (
                         <div>
                             <p>I live in India and working as an Assistant Systems Engineer in TCS.</p>
-                            <p>Besides coding, I also like listening to music and reading books.</p>
+                            <p>I also like listening to music and reading books.</p>
+                            <p>Interested Technologies:</p>
+                            <ul>
+                                <li>Java - Spring, Springboot, hibernate</li>
+                                <li>Docker and Kubernetes</li>
+                                <li>Big Data</li>
+                                <li>Dev Ops</li>
+                            </ul>
                             <div><button className='btn' onClick={this.toggleDispBio}>Read Less</button></div>
                         </div>
                     ):<div><button className='btn' onClick={this.toggleDispBio}>Read More</button></div>
