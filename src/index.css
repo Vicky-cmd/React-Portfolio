@@ -69,3 +69,36 @@ h1, h2, h3, h4, h5, h6 {
     height: 300px;
     margin: 'auto';
 }
+
+.App {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+  
+  .title {
+    margin: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    font-variant: small-caps;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-variant-caps: titling-caps;
+  }
+  
+  .list-item {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+  }
+  
+  .list-group {
+    padding: 10px;
+  }
+  
+  .delete-button {
+    float: right;
+    cursor: pointer;
+    vertical-align: middle;
+  }
