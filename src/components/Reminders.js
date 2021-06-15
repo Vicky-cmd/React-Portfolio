@@ -72,7 +72,7 @@ class Reminders extends Component {
     
     render() {
         return(
-            <div  style={{width: '100%', alignItems: 'center', display: 'flex', flexDirection: 'column'}}>
+            <div  style={{width: '100%', alignItems: 'center', display: 'flex', flexDirection: 'column', color: 'black'}}>
             <div className="form-inline">
             <div className="input-group">
               <input className="form-control" id="reminderTxt" placeholder="I have to..." onKeyPress={this.keyPressListener} onChange={event => this.setState({text: event.target.value})}/>

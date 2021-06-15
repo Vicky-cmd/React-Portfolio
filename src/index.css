@@ -2,7 +2,20 @@ body {
     text-align: center;
     font-size: medium;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 2.5%;
+	background-image: url("./images/background-image.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+	color: white;
+}
+
+.btn {
+    color: white;
+}
+
+.btn:hover {
+    color: aliceblue;
 }
 
 h1, h2, h3, h4, h5, h6 {

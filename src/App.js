@@ -3,6 +3,8 @@ import Projects from './components/Projects';
 import SocialProfiles from "./components/SocialProfiles";
 import profilePic from './assets/profile.png';
 import Title from './components/Title';
+import EducationData from './components/Education';
+import ExperienceData from './components/ExperienceData';
 
 class App extends Component{
 
@@ -31,7 +33,7 @@ class App extends Component{
                 {
                     this.state.displayBio? (
                         <div>
-                            <p>I live in India and working as an Assistant Systems Engineer in TCS.</p>
+                            <p>I live in India and working as a System Engineer in TCS.</p>
                             <p>I also like listening to music and reading books.</p>
                             <h6>INTERESTED TECHNOLOGIES</h6>
                             <div style={{width: 'fit-content', margin: 'auto', textAlign: 'left'}}>
@@ -46,6 +48,10 @@ class App extends Component{
                         </div>
                     ):<div><button className='btn' onClick={this.toggleDispBio}>Read More</button></div>
                 }
+                <hr/>
+                <ExperienceData/>
+                <hr/>
+                <EducationData/>
                 <hr/>
                 <Projects/>
                 <hr/>

@@ -37,7 +37,7 @@ class MusicMaster extends Component{
 
     render() {
         return (
-            <div>
+            <div style={{padding: '2.5%'}}>
                 <h1>Music Master</h1>
                 <br/>
                 <Search searchArtist={this.searchArtist} />
