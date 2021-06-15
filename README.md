@@ -1,5 +1,5 @@
 # Delpoyed Url
-### The project has been deployed in: https://vicky--portfolio.herokuapp.com/
+### The project has been deployed in: https://infotrends-media.herokuapp.com/about-me
 
 # Getting Started with Create React App
 
